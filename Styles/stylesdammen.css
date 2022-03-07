@@ -1,0 +1,99 @@
+#Container{
+	background-color: white !important;
+}
+
+#score-container{
+/*	margin-top: 100px;*/
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+#game-container{
+	background-color: white !important;
+  height: 50%;
+  width: 50%;
+  position: relative;
+    left: 25%;
+}
+
+div > div > div{
+  border: 1px solid black;
+  width: 70px;
+  height: 70px;
+}
+
+div > div:nth-child(odd){
+  background-color: beige;
+}
+
+div > div:nth-child(even){
+  background-color: beige;
+}
+
+div > div:nth-child(even) > *:nth-child(odd){
+  background-color: #692e00;
+}
+
+div > div:nth-child(odd) > *:nth-child(even){
+  background-color: #692e00;
+}
+
+.flex-container{
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: row;
+  transform: rotate(90deg);
+}
+
+p{
+  display: inline;
+}
+
+.spelvak{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number{
+  color: white;
+  background-color: #692e00;
+  float: left;
+  position: relative;
+    top: 25px;
+}
+
+#startContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+  flex-direction: column;
+}
+
+.myButton {
+	background-color:#44c767 !important;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
